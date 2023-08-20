@@ -13,3 +13,8 @@ At I mentioned above there are 3 way that you can access and manage Amazon Web S
 
 However, On this article I'm going to focus only CLI and SDK.\
 Refer : https://docs.aws.amazon.com/whitepapers/latest/aws-overview/accessing-aws-services.html
+
+## AWS CLI version 2
+One thing that you need to understand before using the AWS CLI is the concept of credentials. Basically, when you access AWS via console, you have to provide a username and password to identify that you're an owner account, and then you can manage the service. On the CLI and SDK, you need to authenticate and get authority as well. But instead of using the username and password, the CLI and SDK use credentials to authenticate.
+
+
