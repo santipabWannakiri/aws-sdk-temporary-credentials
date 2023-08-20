@@ -26,3 +26,6 @@ You may be curious about which option to choose for implementation. This is an i
 
 It's worth noting that AWS documentation actually suggests opting for short-term credentials, as this approach is in line with established security best practices.
 For further information, I would like to suggest taking a look at the illustration and document below.
+
+![enter image description here](images/TypeOfCredentials.JPG)
+Refer : https://docs.aws.amazon.com/whitepapers/latest/aws-overview/accessing-aws-services.html
