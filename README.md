@@ -6,7 +6,7 @@ I tried to conduct it that way, but it's not as easy as the console. There are m
 So on this POC project, I would like to note everything based on my understanding, and I hope it will help other people who are new to AWS and might not waste their time like me.  
 
 ## Accessing AWS Services
-At I mentioned above there are 3 way that you can access and manage Amazon Web Services.\
+At I mentioned above there are 3 way that you can access and manage Amazon Web Services.
 > AWS Management Console\
   AWS Command Line Interface (AWS CLI)\
   Software Development Kits (SDKs)
