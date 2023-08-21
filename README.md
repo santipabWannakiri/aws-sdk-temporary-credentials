@@ -29,3 +29,6 @@ For further information, I would like to suggest taking a look at the illustrati
 
 ![enter image description here](images/TypeOfCredentials.JPG)
 Refer : https://docs.aws.amazon.com/whitepapers/latest/aws-overview/accessing-aws-services.html
+
+## AWS IAM Identity Center (successor to AWS Single Sign-On)
+According to the table above, in order to use short-term credentials, we need to configure AWS IAM Identity Center (Successor to AWS Single Sign-On). So what is the IAM Identity Center?
