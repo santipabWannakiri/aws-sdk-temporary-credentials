@@ -36,6 +36,12 @@ However, since the organization continues to use AWS Cloud, They develop many pr
 
 Consequently, AWS offers a recommended solution to address this challenge known as the **"landing zone"** concept. A landing zone entails a multi-account framework that assists in designing a multi-account environment. For more comprehensive details, please refer to the following link: https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-aws-environment/understanding-landing-zones.html
 
+## One problem is solved, but it leads to another problem.
+Employing multiple accounts constitutes a recommended approach. Nevertheless, this approach introduces novel complexities.
+Consider yourself as a senior software engineer overseeing 5 concurrently progressing projects. 
+Your organization adopts the landing zone model to compartmentalize these projects, assigning distinct accounts to each. 
+With authorized access to all these accounts, this entails the responsibility of managing a total of five accounts to ensure access to each respective project.
+
 ## AWS IAM Identity Center (successor to AWS Single Sign-On)
 According to the table above, in order to use short-term credentials, we need to configure AWS IAM Identity Center (Successor to AWS Single Sign-On). So what is the IAM Identity Center?
 
