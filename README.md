@@ -30,11 +30,12 @@ For further information, I would like to suggest taking a look at the illustrati
 ![enter image description here](images/TypeOfCredentials.JPG)
 Refer : https://docs.aws.amazon.com/whitepapers/latest/aws-overview/accessing-aws-services.html
 
-## AWS IAM Identity Center (successor to AWS Single Sign-On)
-According to the table above, in order to use short-term credentials, we need to configure AWS IAM Identity Center (Successor to AWS Single Sign-On). So what is the IAM Identity Center?
-
+## From a Single Account to a Multi-Account
 When an organization decided to move to developing software based on cloud services. In the beginning, they might use just a few services, and this is okay because we just need one account for managing all of them.\
 However, since the organization continues to use AWS Cloud, They develop many projects in parallel on the AWS Cloud. There are many departments involved in the projects, and many people have access to the AWS Cloud. According to this scenario, if you still use one account, it's really difficult to manage and control things like security, cost, and scalability.
 
 Consequently, AWS offers a recommended solution to address this challenge known as the **"landing zone"** concept. A landing zone entails a multi-account framework that assists in designing a multi-account environment. For more comprehensive details, please refer to the following link: https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-aws-environment/understanding-landing-zones.html
+
+## AWS IAM Identity Center (successor to AWS Single Sign-On)
+According to the table above, in order to use short-term credentials, we need to configure AWS IAM Identity Center (Successor to AWS Single Sign-On). So what is the IAM Identity Center?
 
