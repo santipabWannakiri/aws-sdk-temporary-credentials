@@ -46,5 +46,6 @@ Based on the scenario provided, handling multiple accounts presents challenges a
 As a response to this, AWS offers the AWS IAM Identity Center (the successor to AWS Single Sign-On) to simplify the centralization and management of multiple accounts.
 
 ## AWS IAM Identity Center (successor to AWS Single Sign-On)
-According to the table above, in order to use short-term credentials, we need to configure AWS IAM Identity Center (Successor to AWS Single Sign-On). So what is the IAM Identity Center?
+As previously stated, the IAM Identity Center has the capability to centrally oversee access across various AWS accounts and applications. You simply need to recall a single username and password, granting you access to all accounts for which you possess authorization.\
+To enhance comprehension, please refer to the illustration provided below.
 
