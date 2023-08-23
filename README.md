@@ -48,4 +48,4 @@ As a response to this, AWS offers the AWS IAM Identity Center (the successor to 
 ## AWS IAM Identity Center (successor to AWS Single Sign-On)
 As previously stated, the IAM Identity Center has the capability to centrally oversee access across various AWS accounts and applications. You simply need to recall a single username and password, granting you access to all accounts for which you possess authorization.\
 To enhance comprehension, please refer to the illustration provided below.
-
+![enter image description here](images/AwsSSO.JPG)
