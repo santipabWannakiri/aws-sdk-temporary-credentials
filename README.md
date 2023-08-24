@@ -38,12 +38,21 @@ Consequently, AWS offers a recommended solution to address this challenge known 
 
 ## One problem is solved, but it leads to another problem.
 Employing multiple accounts constitutes a recommended approach. Nevertheless, this approach introduces novel complexities.\
-Consider yourself as a senior software engineer overseeing 5 concurrently progressing projects. 
-Your organization adopts the landing zone model to compartmentalize these projects, assigning distinct accounts to each. 
-With authorized access to all these accounts, this entails the responsibility of managing a total of five accounts to ensure access to each respective project.
-Based on the scenario provided, handling multiple accounts presents challenges and can also result in security vulnerabilities.
+Consider that your organization is developing a shopping application on AWS Cloud with 3 development environments: DEV, SIT, and PRD.\
+In order to align with the landing zone concept, the organization is going to assign one account per environment.\
+And let's say in this project, there are 4 people in different roles, that they granted permission to access the development environment in the following way:
 
-As a response to this, AWS offers the AWS IAM Identity Center (the successor to AWS Single Sign-On) to simplify the centralization and management of multiple accounts.
+| Roles       		      | Access to environments area|
+|-----------------------|--------------------------|
+| Lead Engineer         | DEV, SIT and PRD         |
+| Senior Engineer       | DEV, SIT and PRD         |
+| Junior Engineer 1   	| DEV, SIT 			           |
+| Junior Engineer 2   	| DEV, SIT        	       |
+
+
+Based on the scenario provided, if you are a Lead Engineer of this project that mean you havae to handling 3 accounts for access to in each environment.\
+This can pose challenges in effectively overseeing resources, services, billing, and may even expose potential security risks.
+>As a response to this, AWS offers the AWS IAM Identity Center (the successor to AWS Single Sign-On) to simplify the centralization and management of multiple accounts.
 
 ## AWS IAM Identity Center (successor to AWS Single Sign-On)
 As previously stated, the IAM Identity Center has the capability to centrally oversee access across various AWS accounts and applications. You simply need to recall a single username and password, granting you access to all accounts for which you possess authorization.\
