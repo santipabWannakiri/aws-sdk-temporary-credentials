@@ -65,3 +65,6 @@ Instead, you have the option to enroll a workforce user in the IAM Identity Cent
 Regarding the procedure of gaining entry into AWS accounts, the steps are quite straightforward.\
 You simply navigate to the AWS access portal and authenticate using the designated workforce user credentials.\
 Subsequently, a comprehensive roster of accessible AWS accounts will be presented for your perusal.
+
+>Please be aware that the Workforce user is not an AWS account. Therefore, there is no obligation to adhere to the standard signup process.\
+>In fact, you have the option to directly enroll through the IAM Identity Center by simply furnishing fundamental details such as your username, password, and email address.
