@@ -68,3 +68,20 @@ Subsequently, a comprehensive roster of accessible AWS accounts will be presente
 
 >Please be aware that the Workforce user is not an AWS account. Therefore, there is no obligation to adhere to the standard signup process.\
 >In fact, you have the option to directly enroll through the IAM Identity Center by simply furnishing fundamental details such as your username, password, and email address.
+
+
+**AWS Organization** \
+Looking at the picture provided, you'll notice the presence of an AWS organization that encompasses AWS SSO.\
+AWS Organizations is an additional service designed for the centralized management of AWS accounts. This service offers a range of notable features and advantages, including:\
+Consolidated Billing\
+Centralized Policy Management\
+Resource Sharing\
+Hierarchical structure and so on.\
+For further information 
+Refer : https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html
+
+>Please be advised that before setting up IAM Identity Center, we must activate AWS Organization.
+>I'd like to here make reference to the prerequisites and considerations documents for further details:\
+>https://docs.aws.amazon.com/singlesignon/latest/userguide/get-started-prereqs-considerations.html
+
+
