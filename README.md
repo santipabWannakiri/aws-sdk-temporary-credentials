@@ -88,3 +88,6 @@ Refer : https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduc
 **Establish the IAM Identity Center**\
 To set up the IAM Identity Center, refer to the list of approximately eight steps detailed below.\
 Keep in mind that certain steps are optional and can be omitted as needed.
+
+![enter image description here](images/ConfigureIAMIdentity.JPG)\
+Reference document: https://docs.aws.amazon.com/singlesignon/latest/userguide/getting-started.html
