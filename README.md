@@ -96,7 +96,7 @@ Reference document: https://docs.aws.amazon.com/singlesignon/latest/userguide/ge
 Once you've setup the IAM Identity Center and are able to access the AWS access portal, Next, you need to follow the steps below.
 1. Using the CLI to create a profile via the SSO wizard\
 Reference document: https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html
-![enter image description here](images/ConfigureIAMIdentity.JPG)\
+![enter image description here](images/CredentialsForPowerUser.JPG)\
 >The information that we have to provide to the wizard is available from the "Get credentials for PowerUserAccess" menu in the AWS access portal
 2. Once a profile is created, it's going to be stored in./aws/config.
 3. The profile can be shared between the CLI and SDK.
