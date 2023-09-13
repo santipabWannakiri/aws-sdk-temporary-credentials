@@ -99,8 +99,8 @@ Reference document: https://docs.aws.amazon.com/cli/latest/userguide/sso-configu
 ![enter image description here](images/CredentialsForPowerUser.JPG)\
 >The information that we have to provide to the wizard is available from the "Get credentials for PowerUserAccess" menu in the AWS access portal
 2. Once a profile is created, it's going to be stored in./aws/config.
-3. The profile can be shared between the CLI and SDK.
-4. Configure the SDK to retrieve the profile and get a temporary credential.
+>The profile can be shared between the CLI and SDK.
+3. Configure the SDK to retrieve the profile and get a temporary credential.
 
 
 
