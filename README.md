@@ -110,3 +110,6 @@ There are about 6 locations where the SDK is going to retrieve configuration val
 ![enter image description here](images/CredentialsProvider.JPG)
 Reference document: https://sdk.amazonaws.com/java/api/latest/software/amazon/awssdk/auth/credentials/DefaultCredentialsProvider.html
 Reference document: https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials.html
+
+>In this tutorial, we will use way number 4.
+Credential profiles file at the default location (~/.aws/credentials) shared by all AWS SDKs and the AWS CLI.
