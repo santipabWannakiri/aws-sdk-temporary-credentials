@@ -103,5 +103,6 @@ Reference document: https://docs.aws.amazon.com/cli/latest/userguide/sso-configu
 3. Configure the SDK to retrieve the profile and get a temporary credential.
 
 
-
-## SDK for Java
+## AWS JAVA SDK CONFIGURATION
+In order to use the Java SDK, we need to provide temporary credentials to the SDK for authenticating access to our AWS resources.\
+There are about 6 locations where the SDK is going to retrieve configuration values.
