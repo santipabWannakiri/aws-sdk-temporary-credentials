@@ -106,3 +106,7 @@ Reference document: https://docs.aws.amazon.com/cli/latest/userguide/sso-configu
 ## AWS JAVA SDK CONFIGURATION
 In order to use the Java SDK, we need to provide temporary credentials to the SDK for authenticating access to our AWS resources.\
 There are about 6 locations where the SDK is going to retrieve configuration values.
+
+![enter image description here](images/CredentialsProvider.JPG)
+Reference document: https://sdk.amazonaws.com/java/api/latest/software/amazon/awssdk/auth/credentials/DefaultCredentialsProvider.html
+Reference document: https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials.html
