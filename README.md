@@ -119,4 +119,6 @@ So in this step, we will configure the SDK to retrieve the credentials profile, 
 1. Initial Maven project
 2. Add the Java AWS SDK dependency to the pom file.
 3. Create a connection by using ProfileCredentialsProvider.
-4. Provide the profile name that you created via the SSO wizard to ProfileCredentialsProvider.
+4. Provide the profile name that you created via the SSO wizard to ProfileCredentialsProvider.\
+Dependency : https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/setup-project-maven.html \
+ProfileCredentials : https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials-profiles.html
