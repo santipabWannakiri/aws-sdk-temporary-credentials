@@ -113,3 +113,10 @@ Reference document: https://docs.aws.amazon.com/sdk-for-java/latest/developer-gu
 
 >In this tutorial, we will use way number 4.
 Credential profiles file at the default location (~/.aws/credentials) shared by all AWS SDKs and the AWS CLI.
+
+The credentials file, We will get this file since the SSO wizard and SSO login.\
+So in this step, we will configure the SDK to retrieve the credentials profile, which is in the step below.
+1. Initial Maven project
+2. Add the Java AWS SDK dependency to the pom file.
+3. Create a connection by using ProfileCredentialsProvider.
+4. Provide the profile name that you created via the SSO wizard to ProfileCredentialsProvider.
